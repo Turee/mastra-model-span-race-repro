@@ -1,0 +1,15 @@
+{
+  "name": "mastra-model-span-race-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "3.0.92",
+    "@mastra/core": "1.83.0",
+    "@mastra/observability": "1.24.0",
+    "zod": "4.6.7"
+  }
+}
